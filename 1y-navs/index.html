@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>MF return viewer</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="icon" href="../../favicon.ico">
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+		<style>
+         @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+         html {
+             font-family: 'Source Sans Pro';
+             font-size: 1em;
+         }
+		</style>
+		<script src="https://d3js.org/d3.v4.js"></script>
+		<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.10.1/metricsgraphics.js"></script>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.10.1/metricsgraphics.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+		<div class="container">
+			<div id="chart"></div>
+			<script>
+			 makechart = function(charturl, mfname, chartid) {
+				 d3.json(charturl, function(data) {
+					 data = MG.convert.date(data, 'date');
+					 data = MG.convert.number(data, 'nav');
+					 MG.data_graphic({
+						 title: "Performance of " + mfname,
+						 description: "NAV of " + mfname,
+						 data: data,
+						 width: 600,
+						 height: 375,
+						 target: "#" + chartid,
+						 x_accessor: "date",
+						 y_accessor: "nav",
+						 area: true,
+						 transition_on_update: false,
+					 });
+				 });
+			 };
+			</script>
+
+			<div class="dropdown">
+				<button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+					Choose MF
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+					
+					<li><a href="javascript:makechart('./119520.json', &quot;Birla Sun Life Long Term Advantage - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life Long Term Advantage - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./104339.json', &quot;Birla Sun Life Long Term Fund- Growth Option&quot;, 'chart')">&quot;Birla Sun Life Long Term Fund- Growth Option&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./133516.json', &quot;Birla Sun Life Manufacturing Equity Fund - Direct Plan - Growth&quot;, 'chart')">&quot;Birla Sun Life Manufacturing Equity Fund - Direct Plan - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119436.json', &quot;Birla Sun Life Advantage Fund - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life Advantage Fund - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./100033.json', &quot;Birla Sun Life Advantage Fund - Regular Growth&quot;, 'chart')">&quot;Birla Sun Life Advantage Fund - Regular Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./125597.json', &quot;Birla Sun Life Banking and Financial Services Fund - Direct Plan - Growth&quot;, 'chart')">&quot;Birla Sun Life Banking and Financial Services Fund - Direct Plan - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./125595.json', &quot;Birla Sun Life Banking and Financial Services Fund - Regular Plan - Growth&quot;, 'chart')">&quot;Birla Sun Life Banking and Financial Services Fund - Regular Plan - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./120529.json', &quot;Birla Sun Life Buy India Fund - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life Buy India Fund - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./103170.json', &quot;Birla Sun Life Buy India Fund - Growth - Regular Plan&quot;, 'chart')">&quot;Birla Sun Life Buy India Fund - Growth - Regular Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119507.json', &quot;Birla Sun Life Dividend Yield Plus - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life Dividend Yield Plus - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./101738.json', &quot;Birla Sun Life Dividend Yield Plus - Growth - Regular Plan&quot;, 'chart')">&quot;Birla Sun Life Dividend Yield Plus - Growth - Regular Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./120564.json', &quot;Birla Sun Life Equity Fund - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life Equity Fund - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./103166.json', &quot;Birla Sun Life Equity Fund - Growth - Regular Plan&quot;, 'chart')">&quot;Birla Sun Life Equity Fund - Growth - Regular Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./132995.json', &quot;Birla Sun Life Equity Savings Fund - Direct Plan - Growth&quot;, 'chart')">&quot;Birla Sun Life Equity Savings Fund - Direct Plan - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./132998.json', &quot;Birla Sun Life Equity Savings Fund - Regular Plan - Growth&quot;, 'chart')">&quot;Birla Sun Life Equity Savings Fund - Regular Plan - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119528.json', &quot;Birla Sun Life Frontline Equity Fund - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life Frontline Equity Fund - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./103174.json', &quot;Birla Sun Life Frontline Equity Fund-Growth&quot;, 'chart')">&quot;Birla Sun Life Frontline Equity Fund-Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./112114.json', &quot;Birla Sun Life Frontline Equity Fund-Plan B (Growth)&quot;, 'chart')">&quot;Birla Sun Life Frontline Equity Fund-Plan B (Growth)&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119648.json', &quot;Birla Sun Life Index Fund - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life Index Fund - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./101314.json', &quot;Birla Sun Life Index Fund - Growth - Regular Plan&quot;, 'chart')">&quot;Birla Sun Life Index Fund - Growth - Regular Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119591.json', &quot;Birla Sun Life India Gennext Fund - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life India Gennext Fund - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./103111.json', &quot;Birla Sun Life India Gennext Fund-Growth Option&quot;, 'chart')">&quot;Birla Sun Life India Gennext Fund-Growth Option&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119618.json', &quot;Birla Sun Life India Opportunities Fund - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life India Opportunities Fund - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./100066.json', &quot;Birla Sun Life India Opportunities Fund - Growth - Regular Plan&quot;, 'chart')">&quot;Birla Sun Life India Opportunities Fund - Growth - Regular Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119536.json', &quot;Birla Sun Life India Reforms Fund - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life India Reforms Fund - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./112921.json', &quot;Birla Sun Life India Reforms Fund-GROWTH&quot;, 'chart')">&quot;Birla Sun Life India Reforms Fund-GROWTH&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119514.json', &quot;Birla Sun Life Infrastructure Fund - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life Infrastructure Fund - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./103476.json', &quot;Birla Sun Life Infrastructure Fund-Growth&quot;, 'chart')">&quot;Birla Sun Life Infrastructure Fund-Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./111955.json', &quot;Birla Sun Life Infrastructure Fund-Plan B (Growth)&quot;, 'chart')">&quot;Birla Sun Life Infrastructure Fund-Plan B (Growth)&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119517.json', &quot;Birla Sun Life International Equity Fund - Plan A - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life International Equity Fund - Plan A - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./106873.json', &quot;Birla Sun Life International Equity Fund - Plan A - Growth - Regular Plan&quot;, 'chart')">&quot;Birla Sun Life International Equity Fund - Plan A - Growth - Regular Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119518.json', &quot;Birla Sun Life International Equity Fund - Plan B - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life International Equity Fund - Plan B - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./106876.json', &quot;Birla Sun Life International Equity Fund - Plan B - Growth - Regular Plan&quot;, 'chart')">&quot;Birla Sun Life International Equity Fund - Plan B - Growth - Regular Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./133513.json', &quot;Birla Sun Life Manufacturing Equity Fund - Regular Plan - Growth&quot;, 'chart')">&quot;Birla Sun Life Manufacturing Equity Fund - Regular Plan - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119620.json', &quot;Birla Sun Life Midcap Fund - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life Midcap Fund - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./101592.json', &quot;Birla Sun Life MIDCAP Fund-Growth&quot;, 'chart')">&quot;Birla Sun Life MIDCAP Fund-Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./112116.json', &quot;Birla Sun Life MIDCAP Fund-Plan B (Growth)&quot;, 'chart')">&quot;Birla Sun Life MIDCAP Fund-Plan B (Growth)&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119646.json', &quot;Birla Sun Life MNC Fund - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life MNC Fund - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./100064.json', &quot;Birla Sun Life MNC Fund - Growth - Regular Plan&quot;, 'chart')">&quot;Birla Sun Life MNC Fund - Growth - Regular Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./103168.json', &quot;Birla Sun Life New Millenium Fund - Growth - Regular Plan&quot;, 'chart')">&quot;Birla Sun Life New Millenium Fund - Growth - Regular Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./120539.json', &quot;Birla Sun Life New Millennium Fund - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life New Millennium Fund - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119659.json', &quot;Birla Sun Life Pure Value Fund - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life Pure Value Fund - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./108167.json', &quot;Birla Sun Life Pure Value Fund - Growth Option&quot;, 'chart')">&quot;Birla Sun Life Pure Value Fund - Growth Option&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./105804.json', &quot;Birla Sun Life Small &amp; Midcap Fund - GROWTH&quot;, 'chart')">&quot;Birla Sun Life Small &amp; Midcap Fund - GROWTH&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119556.json', &quot;Birla Sun Life Small And Midcap Fund - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life Small And Midcap Fund - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./107504.json', &quot;Birla Sun Life Special Situations Fund - Growth&quot;, 'chart')">&quot;Birla Sun Life Special Situations Fund - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119546.json', &quot;Birla Sun Life Special Situations Fund - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life Special Situations Fund - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119564.json', &quot;Birla Sun Life Top 100 Fund - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life Top 100 Fund - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./103309.json', &quot;Birla Sun Life Top 100 Fund -Growth Option&quot;, 'chart')">&quot;Birla Sun Life Top 100 Fund -Growth Option&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./120517.json', &quot;Birla Sun Life Balanced &#39;95 Fund - Direct Plan-Growth&quot;, 'chart')">&quot;Birla Sun Life Balanced &#39;95 Fund - Direct Plan-Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./103155.json', &quot;Birla Sun Life Balanced &#39;95 Fund - Regular Plan-Growth&quot;, 'chart')">&quot;Birla Sun Life Balanced &#39;95 Fund - Regular Plan-Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119661.json', &quot;Birla Sun Life Tax Plan - Direct Plan - Growth Option&quot;, 'chart')">&quot;Birla Sun Life Tax Plan - Direct Plan - Growth Option&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./104331.json', &quot;Birla Sun Life Tax Plan - Regular Plan - Growth Option&quot;, 'chart')">&quot;Birla Sun Life Tax Plan - Regular Plan - Growth Option&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./107745.json', &quot;Birla Sun Life Relief 96 - Growth Option&quot;, 'chart')">&quot;Birla Sun Life Relief 96 - Growth Option&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./119544.json', &quot;Birla Sun Life Tax Relief 96 - Growth - Direct Plan&quot;, 'chart')">&quot;Birla Sun Life Tax Relief 96 - Growth - Direct Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./131739.json', &quot;Birla Sun Life Tax Savings Fund - Direct Plan - Growth Option&quot;, 'chart')">&quot;Birla Sun Life Tax Savings Fund - Direct Plan - Growth Option&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./131736.json', &quot;Birla Sun Life Tax Savings Fund - Regular Plan - Growth Option&quot;, 'chart')">&quot;Birla Sun Life Tax Savings Fund - Regular Plan - Growth Option&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./131901.json', &quot;Birla Sun Life 5 Star Multi Manager FoF Scheme - Direct Plan - Growth Option&quot;, 'chart')">&quot;Birla Sun Life 5 Star Multi Manager FoF Scheme - Direct Plan - Growth Option&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./131899.json', &quot;Birla Sun Life 5 Star Multi Manager FoF Scheme - Regular Plan - Growth Option&quot;, 'chart')">&quot;Birla Sun Life 5 Star Multi Manager FoF Scheme - Regular Plan - Growth Option&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118559.json', &quot;Franklin Asian Equity Fund - Direct - Growth&quot;, 'chart')">&quot;Franklin Asian Equity Fund - Direct - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./106979.json', &quot;Franklin Asian Equity Fund - Growth Plan&quot;, 'chart')">&quot;Franklin Asian Equity Fund - Growth Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118557.json', &quot;Franklin Build India Fund - Direct - Growth&quot;, 'chart')">&quot;Franklin Build India Fund - Direct - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./112092.json', &quot;Franklin Build India Fund Growth Plan&quot;, 'chart')">&quot;Franklin Build India Fund Growth Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./100523.json', &quot;Franklin FMCG Fund - Growth&quot;, 'chart')">&quot;Franklin FMCG Fund - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118531.json', &quot;Franklin India Bluechip Fund- Direct - Growth&quot;, 'chart')">&quot;Franklin India Bluechip Fund- Direct - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./100471.json', &quot;Franklin India Bluechip Fund-Growth&quot;, 'chart')">&quot;Franklin India Bluechip Fund-Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118510.json', &quot;Franklin India FLEXI CAP FUND - Direct - Growth&quot;, 'chart')">&quot;Franklin India FLEXI CAP FUND - Direct - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./102883.json', &quot;Franklin India Flexi Cap Fund-Growth Plan&quot;, 'chart')">&quot;Franklin India Flexi Cap Fund-Growth Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118581.json', &quot;Franklin India INDEX FUND NIFTY PLAN - Direct - Growth&quot;, 'chart')">&quot;Franklin India INDEX FUND NIFTY PLAN - Direct - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118564.json', &quot;Franklin India High Growth Companies Fund - Direct - Growth&quot;, 'chart')">&quot;Franklin India High Growth Companies Fund - Direct - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./105817.json', &quot;Franklin India High Growth Companies Fund - Growth Plan&quot;, 'chart')">&quot;Franklin India High Growth Companies Fund - Growth Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./102320.json', &quot;Franklin India Index Fund - BSE Plan - Growth Plan&quot;, 'chart')">&quot;Franklin India Index Fund - BSE Plan - Growth Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118545.json', &quot;Franklin India INDEX FUND BSE PLAN - Direct - Growth&quot;, 'chart')">&quot;Franklin India INDEX FUND BSE PLAN - Direct - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./105067.json', &quot;Franklin India Index Fund- Nifty Plan - Growth Plan&quot;, 'chart')">&quot;Franklin India Index Fund- Nifty Plan - Growth Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118539.json', &quot;Franklin INDIA OPPORTUNITIES FUND - Direct - Growth&quot;, 'chart')">&quot;Franklin INDIA OPPORTUNITIES FUND - Direct - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./103151.json', &quot;Franklin India Opportunities Fund - Growth&quot;, 'chart')">&quot;Franklin India Opportunities Fund - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118533.json', &quot;Franklin India PRIMA FUND - Direct - Growth&quot;, 'chart')">&quot;Franklin India PRIMA FUND - Direct - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./100473.json', &quot;Franklin India Prima Fund-Growth&quot;, 'chart')">&quot;Franklin India Prima Fund-Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118535.json', &quot;Franklin India PRIMA PLUS - Direct - Growth&quot;, 'chart')">&quot;Franklin India PRIMA PLUS - Direct - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./100520.json', &quot;Franklin India Prima Plus-Growth&quot;, 'chart')">&quot;Franklin India Prima Plus-Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118525.json', &quot;Franklin India Smaller Companies Fund - Direct - Growth&quot;, 'chart')">&quot;Franklin India Smaller Companies Fund - Direct - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./103360.json', &quot;Franklin India Smaller Companies Fund-Growth&quot;, 'chart')">&quot;Franklin India Smaller Companies Fund-Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118537.json', &quot;Franklin INFOTECH FUND - Direct - Growth&quot;, 'chart')">&quot;Franklin INFOTECH FUND - Direct - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./100522.json', &quot;Franklin Infotech Fund-Growth&quot;, 'chart')">&quot;Franklin Infotech Fund-Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./100902.json', &quot;Franklin Pharma Fund - Growth&quot;, 'chart')">&quot;Franklin Pharma Fund - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118527.json', &quot;Templeton India EQUITY INCOME FUND - Direct - Growth&quot;, 'chart')">&quot;Templeton India EQUITY INCOME FUND - Direct - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./103678.json', &quot;Templeton India Equity Income Fund-Growth Plan&quot;, 'chart')">&quot;Templeton India Equity Income Fund-Growth Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118494.json', &quot;Templeton India Growth Fund - Direct - Growth&quot;, 'chart')">&quot;Templeton India Growth Fund - Direct - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118493.json', &quot;Templeton India Growth Fund-Direct - Dividend&quot;, 'chart')">&quot;Templeton India Growth Fund-Direct - Dividend&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./100497.json', &quot;Templeton India Growth Fund-Dividend Plan&quot;, 'chart')">&quot;Templeton India Growth Fund-Dividend Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./100496.json', &quot;Templeton India Growth Fund-Growth Plan&quot;, 'chart')">&quot;Templeton India Growth Fund-Growth Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118546.json', &quot;Franklin India BALANCED FUND - Direct - Growth&quot;, 'chart')">&quot;Franklin India BALANCED FUND - Direct - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./100550.json', &quot;Franklin India Balanced Fund-Growth Plan&quot;, 'chart')">&quot;Franklin India Balanced Fund-Growth Plan&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118540.json', &quot;Franklin India TAXSHIELD - Direct - Growth&quot;, 'chart')">&quot;Franklin India TAXSHIELD - Direct - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./100526.json', &quot;Franklin India Taxshield-Growth&quot;, 'chart')">&quot;Franklin India Taxshield-Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./129441.json', &quot;Franklin India Feeder - Franklin European Growth Fund - Direct - Dividend&quot;, 'chart')">&quot;Franklin India Feeder - Franklin European Growth Fund - Direct - Dividend&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./129440.json', &quot;Franklin India Feeder - Franklin European Growth Fund - Direct - Growth&quot;, 'chart')">&quot;Franklin India Feeder - Franklin European Growth Fund - Direct - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./129439.json', &quot;Franklin India Feeder - Franklin European Growth Fund - Dividend&quot;, 'chart')">&quot;Franklin India Feeder - Franklin European Growth Fund - Dividend&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./129438.json', &quot;Franklin India Feeder - Franklin European Growth Fund - Growth&quot;, 'chart')">&quot;Franklin India Feeder - Franklin European Growth Fund - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./116633.json', &quot;Franklin India Feeder - Franklin U.S. Opportunities Fund - Growth&quot;, 'chart')">&quot;Franklin India Feeder - Franklin U.S. Opportunities Fund - Growth&quot;</a></li>
+					
+					<li><a href="javascript:makechart('./118551.json', &quot;Franklin India Feeder - Franklin US Opportunities Fund - Direct - Growth&quot;, 'chart')">&quot;Franklin India Feeder - Franklin US Opportunities Fund - Direct - Growth&quot;</a></li>
+					
+				</ul>
+			</div>
+		</div>
+		<script>makechart('./103174.json', 'Birla Sun Life Frontline Equity-Growth', 'chart')</script>
+    </body>
+</html>
