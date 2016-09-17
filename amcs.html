@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>MF return viewer</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="../../favicon.ico">
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+	<style>
+         @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
+         html {
+             font-family: 'Source Sans Pro';
+             font-size: 0.7em;
+         }
+	</style>
+	<script src="https://d3js.org/d3.v4.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.10.1/metricsgraphics.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/metrics-graphics/2.10.1/metricsgraphics.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+	<div class="container">
+	    <div id="chart1"></div>
+		<div id="legend"></div>
+	    <script>
+	     makechart = function(chartid) {
+			 /* Chart goes here. */
+			 var fund1 = $('#fund1').val();
+			 var fund2 = $('#fund2').val();
+			 if (fund1 < 0 || fund2 < 0) return;
+			 var fund1name = $('#fund1 option:selected').text();
+			 var fund2name = $('#fund2 option:selected').text();
+
+			 years = String($('#duration').val());
+
+			 data_combined = [];
+			 $.ajax({
+				 url: years + 'y-navs/' + fund1 + '.json',
+				 async: false,
+				 dataType: 'json',
+				 success: function(data) {
+					 data_combined[0] = data;
+				 }});
+			 $.ajax({
+				 url: years + 'y-navs/' + fund2 + '.json',
+				 async: false,
+				 dataType: 'json',
+				 success: function(data) {
+					 data_combined[1] = data;
+				 }});
+
+			 for (var i = 0; i < data_combined.length; i++) {
+				 data_combined[i] = MG.convert.date(data_combined[i], 'date');
+				 data_combined[i] = MG.convert.number(data_combined[i], 'nav');
+			 }
+
+			 /* Do the 10,000 rupee conversion */
+			 function normalize_navs_lumpsum(data) {
+				 factor = 10000.0 / data[0]['nav'];
+				 for (var i = 0; i < data.length; i++) {
+					 data[i]['nav'] = data[i]['nav'] * factor;
+				 }
+				 return data;
+			 };
+			 data_combined[0] = normalize_navs_lumpsum(data_combined[0]);
+			 data_combined[1] = normalize_navs_lumpsum(data_combined[1]);
+
+			 var d = [[{'date': new Date('2015-03-05T21:00:00Z'), 'nav': 12000}], [{'date': new Date('2014-03-05T21:00:00Z'), 'nav': 10000}]];
+			 MG.data_graphic({
+				 title: "Rs. 10,000 in " + fund1name + ', ' + fund2name,
+				 description: "Growth of value of Rs. 10,000",
+				 data: data_combined,
+				 width: 600,
+				 height: 375,
+				 target: "#" + chartid,
+				 x_accessor: "date",
+				 y_accessor: "nav",
+				 transition_on_update: false,
+				 legend: [fund1name, fund2name],
+				 legend_target: '#legend'
+			 });
+	     };
+
+	     populate_funds = function(amcidname, fundidname) {
+			 $(fundidname).prop("disabled", false);
+			 /* First clear the list */
+			 $(fundidname).find('option').remove().end();
+			 /* Finally read the funds from the file */
+			 $.ajax({
+				 url: String($(amcidname).val()) + '.json',
+				 dataType: 'json',
+				 async: false,
+				 success: function(data) {
+					 $.each(data, function(key, value) {
+						 $(fundidname).append($('<option></option>').val(value.amfisymbol).html(value.name));
+					 });
+				 }
+			 });
+			 $(fundidname).val($(fundidname + ' option:first').val());
+	     };
+	    </script>
+	</div>
+	<div class="container">
+	    <div class="col-lg-6">
+		<h3>Fund 1</h3>
+		<form>
+		    <select class="form-control" id="amc1" onchange='populate_funds("#amc1", "#fund1")'>
+			
+			<option value="3">Birla Sun Life Mutual Fund</option>
+			
+			<option value="27">Franklin Templeton Mutual Fund</option>
+			
+			<option value="59">BNP Paribas Mutual Fund</option>
+			
+		    </select>
+		    <select class="form-control" id="fund1" disabled onchange='makechart("chart1")'>
+			<option value="-1">No Funds yet.</option>
+		    </select>
+		    <select class="form-control" id="duration" onchange='makechart("chart1")'>
+				<option value="1">1 year</option>
+				<option value="3">3 year</option>
+				<option value="5">5 year</option>
+				<option value="7">7 year</option>
+		    </select>
+		</form>
+	    </div>
+	    <div class="col-lg-6">
+		<h3>Fund 2</h3>
+		<form>
+		    <select class="form-control" id="amc2" onchange='populate_funds("#amc2", "#fund2")'>
+			
+			<option value="3">Birla Sun Life Mutual Fund</option>
+			
+			<option value="27">Franklin Templeton Mutual Fund</option>
+			
+			<option value="59">BNP Paribas Mutual Fund</option>
+			
+		    </select>
+		    <select class="form-control" id="fund2" disabled onchange='makechart("chart1")'>
+			<option value="-1">No Funds yet.</option>
+		    </select>
+		</form>
+	    </div>
+	</div>
+	<script>
+	 /* We'll actually click the options */
+	 initLists = function(listname, fundname, value1, value2) {
+		 $(listname).change(function () {
+			 var data= $(this).val();
+		 });
+
+		 $(listname)
+			 .val(value1)
+			 .trigger('change');
+
+		 $(fundname).change(function () {
+			 var data= $(this).val();
+		 });
+
+		 $(fundname)
+			 .val(value2)
+			 .trigger('change');
+	 };
+	 initLists('#amc1', '#fund1', '3', '103174');
+	 initLists('#amc2', '#fund2', '27', '100471');
+	 makechart("chart1");
+	</script>
+    </body>
+</html>
