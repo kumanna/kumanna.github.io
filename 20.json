@@ -25,18 +25,6 @@
 	},
     
 	{
-		"name" : "ICICI Prudential Blended Plan A - Growth",
-		"amfisymbol" : "103027"
-    
-	},
-    
-	{
-		"name" : "ICICI Prudential Blended Plan A-Direct Plan - Growth",
-		"amfisymbol" : "120310"
-    
-	},
-    
-	{
 		"name" : "ICICI Prudential Dividend Yield Equity Fund Direct Plan Growth Option",
 		"amfisymbol" : "129312"
     
@@ -69,12 +57,6 @@
 	{
 		"name" : "ICICI Prudential Equity Arbitrage Fund - Growth",
 		"amfisymbol" : "104683"
-    
-	},
-    
-	{
-		"name" : "ICICI Prudential Equity Opportunities Fund - Retail Growth Plan",
-		"amfisymbol" : "105096"
     
 	},
     
@@ -117,24 +99,6 @@
 	{
 		"name" : "ICICI Prudential Fusion Fund-Growth Plan",
 		"amfisymbol" : "103660"
-    
-	},
-    
-	{
-		"name" : "ICICI Prudential Fusion Fund Series-III - Retail Growth Plan",
-		"amfisymbol" : "107376"
-    
-	},
-    
-	{
-		"name" : "ICICI Prudential Indo Asia Equity Fund - Growth",
-		"amfisymbol" : "106823"
-    
-	},
-    
-	{
-		"name" : "ICICI Prudential Indo Asia Equity Fund - Direct Plan - Growth",
-		"amfisymbol" : "120591"
     
 	},
     
