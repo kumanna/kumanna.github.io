@@ -1,74 +1,8 @@
 [
 
 	{
-		"name" : "Canara Robeco Emerging Equities - Regular Plan - GROWTH",
-		"amfisymbol" : "102920"
-    
-	},
-    
-	{
-		"name" : "Canara Robeco Emerging Equities-Direct Plan-Growth Option",
-		"amfisymbol" : "118278"
-    
-	},
-    
-	{
-		"name" : "Canara Robeco Equity Diversified - Regular Plan - Growth",
-		"amfisymbol" : "101922"
-    
-	},
-    
-	{
-		"name" : "Canara Robeco Equity Diversified-Direct Plan -Growth Option",
-		"amfisymbol" : "118275"
-    
-	},
-    
-	{
-		"name" : "Canara Robeco F.O.R.C.E Fund - Direct Plan - Growth",
-		"amfisymbol" : "118273"
-    
-	},
-    
-	{
-		"name" : "Canara Robeco F.O.R.C.E Fund - Regular Plan - Growth Option",
-		"amfisymbol" : "112152"
-    
-	},
-    
-	{
-		"name" : "Canara Robeco Infrastructure - Regular Plan - GROWTH",
-		"amfisymbol" : "103390"
-    
-	},
-    
-	{
-		"name" : "Canara Robeco Infrastructure-Direct Plan - Growth",
-		"amfisymbol" : "118267"
-    
-	},
-    
-	{
-		"name" : "Canara Robeco Large Cap+ Fund - Direct Plan - Growth",
-		"amfisymbol" : "118269"
-    
-	},
-    
-	{
-		"name" : "Canara Robeco Large Cap+ Fund - Regular Plan - Growth",
-		"amfisymbol" : "113221"
-    
-	},
-    
-	{
-		"name" : "Canara Robeco Balance - Direct Plan - Growth",
-		"amfisymbol" : "118272"
-    
-	},
-    
-	{
-		"name" : "Canara Robeco Balance - Regular Plan - Growth",
-		"amfisymbol" : "106166"
+		"name" : "Canara Robeco Equity Taxsaver - Regular Plan - Growth",
+		"amfisymbol" : "111722"
     
 	},
     
@@ -79,8 +13,74 @@
 	},
     
 	{
-		"name" : "Canara Robeco Equity Taxsaver - Regular Plan - Growth",
-		"amfisymbol" : "111722"
+		"name" : "Canara Robeco Balance - Regular Plan - Growth",
+		"amfisymbol" : "106166"
+    
+	},
+    
+	{
+		"name" : "Canara Robeco Balance - Direct Plan - Growth",
+		"amfisymbol" : "118272"
+    
+	},
+    
+	{
+		"name" : "Canara Robeco Large Cap+ Fund - Regular Plan - Growth",
+		"amfisymbol" : "113221"
+    
+	},
+    
+	{
+		"name" : "Canara Robeco Large Cap+ Fund - Direct Plan - Growth",
+		"amfisymbol" : "118269"
+    
+	},
+    
+	{
+		"name" : "Canara Robeco Infrastructure-Direct Plan - Growth",
+		"amfisymbol" : "118267"
+    
+	},
+    
+	{
+		"name" : "Canara Robeco Infrastructure - Regular Plan - GROWTH",
+		"amfisymbol" : "103390"
+    
+	},
+    
+	{
+		"name" : "Canara Robeco F.O.R.C.E Fund - Regular Plan - Growth Option",
+		"amfisymbol" : "112152"
+    
+	},
+    
+	{
+		"name" : "Canara Robeco F.O.R.C.E Fund - Direct Plan - Growth",
+		"amfisymbol" : "118273"
+    
+	},
+    
+	{
+		"name" : "Canara Robeco Equity Diversified-Direct Plan -Growth Option",
+		"amfisymbol" : "118275"
+    
+	},
+    
+	{
+		"name" : "Canara Robeco Equity Diversified - Regular Plan - Growth",
+		"amfisymbol" : "101922"
+    
+	},
+    
+	{
+		"name" : "Canara Robeco Emerging Equities-Direct Plan-Growth Option",
+		"amfisymbol" : "118278"
+    
+	},
+    
+	{
+		"name" : "Canara Robeco Emerging Equities - Regular Plan - GROWTH",
+		"amfisymbol" : "102920"
     
 	}
     

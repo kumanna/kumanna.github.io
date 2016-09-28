@@ -1,134 +1,8 @@
 [
 
 	{
-		"name" : "Kotak 50 - Growth",
-		"amfisymbol" : "114458"
-    
-	},
-    
-	{
-		"name" : "Kotak Mid-Cap - Growth",
-		"amfisymbol" : "102875"
-    
-	},
-    
-	{
-		"name" : "Kotak Balance - Growth",
-		"amfisymbol" : "133036"
-    
-	},
-    
-	{
-		"name" : "Kotak 50 - Growth - Direct",
-		"amfisymbol" : "120152"
-    
-	},
-    
-	{
-		"name" : "Kotak Classic Equity Scheme - Growth",
-		"amfisymbol" : "103040"
-    
-	},
-    
-	{
-		"name" : "Kotak Classic Equity Scheme - Growth - Direct",
-		"amfisymbol" : "119769"
-    
-	},
-    
-	{
-		"name" : "Kotak Emerging Equity Scheme - Growth",
-		"amfisymbol" : "104908"
-    
-	},
-    
-	{
-		"name" : "Kotak Emerging Equity Scheme - Growth - Direct",
-		"amfisymbol" : "119775"
-    
-	},
-    
-	{
-		"name" : "Kotak Equity Arbitrage Fund - Growth",
-		"amfisymbol" : "105968"
-    
-	},
-    
-	{
-		"name" : "Kotak Equity Arbitrage Fund - Growth - Direct",
-		"amfisymbol" : "119771"
-    
-	},
-    
-	{
-		"name" : "Kotak Equity Savings Fund - Direct - Growth",
-		"amfisymbol" : "131373"
-    
-	},
-    
-	{
-		"name" : "Kotak Equity Savings Fund - Regular - Growth",
-		"amfisymbol" : "131372"
-    
-	},
-    
-	{
-		"name" : "Kotak Global Emerging Market Fund - Growth",
-		"amfisymbol" : "106441"
-    
-	},
-    
-	{
-		"name" : "Kotak Global Emerging Market Fund - Growth - Direct",
-		"amfisymbol" : "119779"
-    
-	},
-    
-	{
-		"name" : "Kotak Infrastructure &amp; Economic Reform Fund - Standard Plan-Growth",
-		"amfisymbol" : "133796"
-    
-	},
-    
-	{
-		"name" : "Kotak Infrastructure &amp; Economic Reform Fund- Direct Plan- Growth Option",
-		"amfisymbol" : "133801"
-    
-	},
-    
-	{
-		"name" : "Kotak Mid-Cap - Growth - Direct",
-		"amfisymbol" : "120164"
-    
-	},
-    
-	{
-		"name" : "Kotak Opportunities - Growth",
-		"amfisymbol" : "103234"
-    
-	},
-    
-	{
-		"name" : "Kotak Opportunities - Growth - Direct",
-		"amfisymbol" : "120158"
-    
-	},
-    
-	{
-		"name" : "Kotak Select Focus Fund - Growth",
-		"amfisymbol" : "112090"
-    
-	},
-    
-	{
-		"name" : "Kotak Select Focus Fund - Growth - Direct",
-		"amfisymbol" : "120166"
-    
-	},
-    
-	{
-		"name" : "Kotak Balance - Direct Growth",
-		"amfisymbol" : "133035"
+		"name" : "Kotak Tax Saver-Scheme - Growth - Direct",
+		"amfisymbol" : "119773"
     
 	},
     
@@ -139,8 +13,134 @@
 	},
     
 	{
-		"name" : "Kotak Tax Saver-Scheme - Growth - Direct",
-		"amfisymbol" : "119773"
+		"name" : "Kotak Balance - Growth",
+		"amfisymbol" : "133036"
+    
+	},
+    
+	{
+		"name" : "Kotak Balance - Direct Growth",
+		"amfisymbol" : "133035"
+    
+	},
+    
+	{
+		"name" : "Kotak Select Focus Fund - Growth - Direct",
+		"amfisymbol" : "120166"
+    
+	},
+    
+	{
+		"name" : "Kotak Select Focus Fund - Growth",
+		"amfisymbol" : "112090"
+    
+	},
+    
+	{
+		"name" : "Kotak Opportunities - Growth - Direct",
+		"amfisymbol" : "120158"
+    
+	},
+    
+	{
+		"name" : "Kotak Opportunities - Growth",
+		"amfisymbol" : "103234"
+    
+	},
+    
+	{
+		"name" : "Kotak Mid-Cap - Growth - Direct",
+		"amfisymbol" : "120164"
+    
+	},
+    
+	{
+		"name" : "Kotak Mid-Cap - Growth",
+		"amfisymbol" : "102875"
+    
+	},
+    
+	{
+		"name" : "Kotak Infrastructure &amp; Economic Reform Fund- Direct Plan- Growth Option",
+		"amfisymbol" : "133801"
+    
+	},
+    
+	{
+		"name" : "Kotak Infrastructure &amp; Economic Reform Fund - Standard Plan-Growth",
+		"amfisymbol" : "133796"
+    
+	},
+    
+	{
+		"name" : "Kotak Global Emerging Market Fund - Growth - Direct",
+		"amfisymbol" : "119779"
+    
+	},
+    
+	{
+		"name" : "Kotak Global Emerging Market Fund - Growth",
+		"amfisymbol" : "106441"
+    
+	},
+    
+	{
+		"name" : "Kotak Equity Savings Fund - Regular - Growth",
+		"amfisymbol" : "131372"
+    
+	},
+    
+	{
+		"name" : "Kotak Equity Savings Fund - Direct - Growth",
+		"amfisymbol" : "131373"
+    
+	},
+    
+	{
+		"name" : "Kotak Equity Arbitrage Fund - Growth - Direct",
+		"amfisymbol" : "119771"
+    
+	},
+    
+	{
+		"name" : "Kotak Equity Arbitrage Fund - Growth",
+		"amfisymbol" : "105968"
+    
+	},
+    
+	{
+		"name" : "Kotak Emerging Equity Scheme - Growth - Direct",
+		"amfisymbol" : "119775"
+    
+	},
+    
+	{
+		"name" : "Kotak Emerging Equity Scheme - Growth",
+		"amfisymbol" : "104908"
+    
+	},
+    
+	{
+		"name" : "Kotak Classic Equity Scheme - Growth - Direct",
+		"amfisymbol" : "119769"
+    
+	},
+    
+	{
+		"name" : "Kotak Classic Equity Scheme - Growth",
+		"amfisymbol" : "103040"
+    
+	},
+    
+	{
+		"name" : "Kotak 50 - Growth - Direct",
+		"amfisymbol" : "120152"
+    
+	},
+    
+	{
+		"name" : "Kotak 50 - Growth",
+		"amfisymbol" : "114458"
     
 	}
     

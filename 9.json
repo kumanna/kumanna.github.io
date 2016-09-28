@@ -1,200 +1,8 @@
 [
 
 	{
-		"name" : "HDFC Capital Builder Fund - Growth Option",
-		"amfisymbol" : "101764"
-    
-	},
-    
-	{
-		"name" : "HDFC Capital Builder Fund -Direct Plan - Growth Option",
-		"amfisymbol" : "118935"
-    
-	},
-    
-	{
-		"name" : "HDFC Core &amp; Satellite Fund -Direct Plan - Growth Option",
-		"amfisymbol" : "118950"
-    
-	},
-    
-	{
-		"name" : "HDFC Core and Satellite Fund - GROWTH",
-		"amfisymbol" : "102760"
-    
-	},
-    
-	{
-		"name" : "HDFC Equity Fund - Growth Option",
-		"amfisymbol" : "101762"
-    
-	},
-    
-	{
-		"name" : "HDFC Equity Fund -Direct Plan - Growth Option",
-		"amfisymbol" : "118955"
-    
-	},
-    
-	{
-		"name" : "HDFC Equity Savings Fund -Direct Plan - Growth Option",
-		"amfisymbol" : "119128"
-    
-	},
-    
-	{
-		"name" : "HDFC Equity Savings Fund -GROWTH",
-		"amfisymbol" : "101585"
-    
-	},
-    
-	{
-		"name" : "HDFC Growth Fund - Dividend Option",
-		"amfisymbol" : "100120"
-    
-	},
-    
-	{
-		"name" : "HDFC Growth Fund - Growth Option",
-		"amfisymbol" : "100119"
-    
-	},
-    
-	{
-		"name" : "HDFC Growth Fund -Direct Plan - Dividend Option",
-		"amfisymbol" : "118969"
-    
-	},
-    
-	{
-		"name" : "HDFC Growth Fund -Direct Plan - Growth Option",
-		"amfisymbol" : "118968"
-    
-	},
-    
-	{
-		"name" : "HDFC Infrastructure Fund -Direct Plan - Growth Option",
-		"amfisymbol" : "118979"
-    
-	},
-    
-	{
-		"name" : "HDFC INFRASTRUCTURE FUND-GROWTH OPTION",
-		"amfisymbol" : "107524"
-    
-	},
-    
-	{
-		"name" : "HDFC Large Cap Fund - Direct Growth Plan",
-		"amfisymbol" : "130498"
-    
-	},
-    
-	{
-		"name" : "HDFC Large Cap Fund - Regular Growth Plan",
-		"amfisymbol" : "130496"
-    
-	},
-    
-	{
-		"name" : "HDFC Mid Cap Opportunities Fund -Direct Plan - Growth Option",
-		"amfisymbol" : "118989"
-    
-	},
-    
-	{
-		"name" : "HDFC MID-CAP OPPORTUNITIES FUND - Growth Option",
-		"amfisymbol" : "105758"
-    
-	},
-    
-	{
-		"name" : "HDFC Premier Multi-Cap Fund-Growth",
-		"amfisymbol" : "102948"
-    
-	},
-    
-	{
-		"name" : "HDFC Premier Multicap -Direct Plan - Growth Option",
-		"amfisymbol" : "119062"
-    
-	},
-    
-	{
-		"name" : "HDFC Small and Mid Cap Fund - Direct Growth Plan",
-		"amfisymbol" : "130503"
-    
-	},
-    
-	{
-		"name" : "HDFC Small and Mid Cap Fund - Regular Growth Plan",
-		"amfisymbol" : "130502"
-    
-	},
-    
-	{
-		"name" : "HDFC Top 200 Fund - Growth Option",
-		"amfisymbol" : "102000"
-    
-	},
-    
-	{
-		"name" : "HDFC Top 200 Fund -Direct Plan - Growth Option",
-		"amfisymbol" : "119018"
-    
-	},
-    
-	{
-		"name" : "HDFC Balanced Fund - Growth Option",
-		"amfisymbol" : "100122"
-    
-	},
-    
-	{
-		"name" : "HDFC Balanced Fund -Direct Plan - Growth Option",
-		"amfisymbol" : "118933"
-    
-	},
-    
-	{
-		"name" : "HDFC Prudence Fund - Growth Option",
-		"amfisymbol" : "101977"
-    
-	},
-    
-	{
-		"name" : "HDFC Prudence Fund -Direct Plan - Growth Option",
-		"amfisymbol" : "118991"
-    
-	},
-    
-	{
-		"name" : "HDFC Long Term Advantage Fund - Growth Option",
-		"amfisymbol" : "100998"
-    
-	},
-    
-	{
-		"name" : "HDFC Long Term Advantage Fund -Direct Plan - Growth Option",
-		"amfisymbol" : "118929"
-    
-	},
-    
-	{
-		"name" : "HDFC TaxSaver -Direct Plan - Growth Option",
-		"amfisymbol" : "119060"
-    
-	},
-    
-	{
-		"name" : "HDFC TaxSaver-Growth Plan",
-		"amfisymbol" : "101979"
-    
-	},
-    
-	{
-		"name" : "HDFC GOLD FUND - GROWTH OPTION",
-		"amfisymbol" : "115934"
+		"name" : "HDFC Sensex ETF - Growth option",
+		"amfisymbol" : "135854"
     
 	},
     
@@ -205,8 +13,200 @@
 	},
     
 	{
-		"name" : "HDFC Sensex ETF - Growth option",
-		"amfisymbol" : "135854"
+		"name" : "HDFC GOLD FUND - GROWTH OPTION",
+		"amfisymbol" : "115934"
+    
+	},
+    
+	{
+		"name" : "HDFC TaxSaver-Growth Plan",
+		"amfisymbol" : "101979"
+    
+	},
+    
+	{
+		"name" : "HDFC TaxSaver -Direct Plan - Growth Option",
+		"amfisymbol" : "119060"
+    
+	},
+    
+	{
+		"name" : "HDFC Long Term Advantage Fund -Direct Plan - Growth Option",
+		"amfisymbol" : "118929"
+    
+	},
+    
+	{
+		"name" : "HDFC Long Term Advantage Fund - Growth Option",
+		"amfisymbol" : "100998"
+    
+	},
+    
+	{
+		"name" : "HDFC Prudence Fund -Direct Plan - Growth Option",
+		"amfisymbol" : "118991"
+    
+	},
+    
+	{
+		"name" : "HDFC Prudence Fund - Growth Option",
+		"amfisymbol" : "101977"
+    
+	},
+    
+	{
+		"name" : "HDFC Balanced Fund -Direct Plan - Growth Option",
+		"amfisymbol" : "118933"
+    
+	},
+    
+	{
+		"name" : "HDFC Balanced Fund - Growth Option",
+		"amfisymbol" : "100122"
+    
+	},
+    
+	{
+		"name" : "HDFC Top 200 Fund -Direct Plan - Growth Option",
+		"amfisymbol" : "119018"
+    
+	},
+    
+	{
+		"name" : "HDFC Top 200 Fund - Growth Option",
+		"amfisymbol" : "102000"
+    
+	},
+    
+	{
+		"name" : "HDFC Small and Mid Cap Fund - Regular Growth Plan",
+		"amfisymbol" : "130502"
+    
+	},
+    
+	{
+		"name" : "HDFC Small and Mid Cap Fund - Direct Growth Plan",
+		"amfisymbol" : "130503"
+    
+	},
+    
+	{
+		"name" : "HDFC Premier Multicap -Direct Plan - Growth Option",
+		"amfisymbol" : "119062"
+    
+	},
+    
+	{
+		"name" : "HDFC Premier Multi-Cap Fund-Growth",
+		"amfisymbol" : "102948"
+    
+	},
+    
+	{
+		"name" : "HDFC MID-CAP OPPORTUNITIES FUND - Growth Option",
+		"amfisymbol" : "105758"
+    
+	},
+    
+	{
+		"name" : "HDFC Mid Cap Opportunities Fund -Direct Plan - Growth Option",
+		"amfisymbol" : "118989"
+    
+	},
+    
+	{
+		"name" : "HDFC Large Cap Fund - Regular Growth Plan",
+		"amfisymbol" : "130496"
+    
+	},
+    
+	{
+		"name" : "HDFC Large Cap Fund - Direct Growth Plan",
+		"amfisymbol" : "130498"
+    
+	},
+    
+	{
+		"name" : "HDFC INFRASTRUCTURE FUND-GROWTH OPTION",
+		"amfisymbol" : "107524"
+    
+	},
+    
+	{
+		"name" : "HDFC Infrastructure Fund -Direct Plan - Growth Option",
+		"amfisymbol" : "118979"
+    
+	},
+    
+	{
+		"name" : "HDFC Growth Fund -Direct Plan - Growth Option",
+		"amfisymbol" : "118968"
+    
+	},
+    
+	{
+		"name" : "HDFC Growth Fund -Direct Plan - Dividend Option",
+		"amfisymbol" : "118969"
+    
+	},
+    
+	{
+		"name" : "HDFC Growth Fund - Growth Option",
+		"amfisymbol" : "100119"
+    
+	},
+    
+	{
+		"name" : "HDFC Growth Fund - Dividend Option",
+		"amfisymbol" : "100120"
+    
+	},
+    
+	{
+		"name" : "HDFC Equity Savings Fund -GROWTH",
+		"amfisymbol" : "101585"
+    
+	},
+    
+	{
+		"name" : "HDFC Equity Savings Fund -Direct Plan - Growth Option",
+		"amfisymbol" : "119128"
+    
+	},
+    
+	{
+		"name" : "HDFC Equity Fund -Direct Plan - Growth Option",
+		"amfisymbol" : "118955"
+    
+	},
+    
+	{
+		"name" : "HDFC Equity Fund - Growth Option",
+		"amfisymbol" : "101762"
+    
+	},
+    
+	{
+		"name" : "HDFC Core and Satellite Fund - GROWTH",
+		"amfisymbol" : "102760"
+    
+	},
+    
+	{
+		"name" : "HDFC Core &amp; Satellite Fund -Direct Plan - Growth Option",
+		"amfisymbol" : "118950"
+    
+	},
+    
+	{
+		"name" : "HDFC Capital Builder Fund -Direct Plan - Growth Option",
+		"amfisymbol" : "118935"
+    
+	},
+    
+	{
+		"name" : "HDFC Capital Builder Fund - Growth Option",
+		"amfisymbol" : "101764"
     
 	}
     
