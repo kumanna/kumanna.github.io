@@ -1,74 +1,20 @@
 [
 
 	{
-		"name" : "Axis Long Term Equity Fund - Growth",
-		"amfisymbol" : "112323"
-    
-	},
-    
-	{
 		"name" : "Axis Long Term Equity Fund - Direct Plan - Growth Option",
 		"amfisymbol" : "120503"
     
 	},
     
 	{
-		"name" : "Axis Triple Advantage Fund - Growth Option",
-		"amfisymbol" : "113064"
+		"name" : "Axis Long Term Equity Fund - Growth",
+		"amfisymbol" : "112323"
     
 	},
     
 	{
-		"name" : "Axis Triple Advantage Fund - Direct Plan - Growth Option",
-		"amfisymbol" : "120524"
-    
-	},
-    
-	{
-		"name" : "Axis Children&#39;s Gift Fund - without Lock in - Growth",
-		"amfisymbol" : "135766"
-    
-	},
-    
-	{
-		"name" : "Axis Children&#39;s Gift Fund - without Lock in - Direct Growth",
-		"amfisymbol" : "135764"
-    
-	},
-    
-	{
-		"name" : "Axis Children&#39;s Gift Fund - Lock in - Growth",
-		"amfisymbol" : "135759"
-    
-	},
-    
-	{
-		"name" : "Axis Children&#39;s Gift Fund - Lock in - Direct Growth",
-		"amfisymbol" : "135762"
-    
-	},
-    
-	{
-		"name" : "Axis Midcap Fund - Growth",
-		"amfisymbol" : "114564"
-    
-	},
-    
-	{
-		"name" : "Axis Midcap Fund - Direct Plan - Growth",
-		"amfisymbol" : "120505"
-    
-	},
-    
-	{
-		"name" : "Axis Focused 25 Fund - Growth Option",
-		"amfisymbol" : "117560"
-    
-	},
-    
-	{
-		"name" : "Axis Focused 25 Fund - Direct Plan - Growth Option",
-		"amfisymbol" : "120468"
+		"name" : "Axis Equity Fund - Direct Plan - Growth",
+		"amfisymbol" : "120465"
     
 	},
     
@@ -79,8 +25,62 @@
 	},
     
 	{
-		"name" : "Axis Equity Fund - Direct Plan - Growth",
-		"amfisymbol" : "120465"
+		"name" : "Axis Focused 25 Fund - Direct Plan - Growth Option",
+		"amfisymbol" : "120468"
+    
+	},
+    
+	{
+		"name" : "Axis Focused 25 Fund - Growth Option",
+		"amfisymbol" : "117560"
+    
+	},
+    
+	{
+		"name" : "Axis Midcap Fund - Direct Plan - Growth",
+		"amfisymbol" : "120505"
+    
+	},
+    
+	{
+		"name" : "Axis Midcap Fund - Growth",
+		"amfisymbol" : "114564"
+    
+	},
+    
+	{
+		"name" : "Axis Children&#39;s Gift Fund - Lock in - Direct Growth",
+		"amfisymbol" : "135762"
+    
+	},
+    
+	{
+		"name" : "Axis Children&#39;s Gift Fund - Lock in - Growth",
+		"amfisymbol" : "135759"
+    
+	},
+    
+	{
+		"name" : "Axis Children&#39;s Gift Fund - without Lock in - Direct Growth",
+		"amfisymbol" : "135764"
+    
+	},
+    
+	{
+		"name" : "Axis Children&#39;s Gift Fund - without Lock in - Growth",
+		"amfisymbol" : "135766"
+    
+	},
+    
+	{
+		"name" : "Axis Triple Advantage Fund - Direct Plan - Growth Option",
+		"amfisymbol" : "120524"
+    
+	},
+    
+	{
+		"name" : "Axis Triple Advantage Fund - Growth Option",
+		"amfisymbol" : "113064"
     
 	}
     

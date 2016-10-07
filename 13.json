@@ -1,68 +1,8 @@
 [
 
 	{
-		"name" : "Escorts Tax Plan-Growth Option-Direct Plan",
-		"amfisymbol" : "120847"
-    
-	},
-    
-	{
 		"name" : "Escorts Tax Plan-Growth",
 		"amfisymbol" : "100175"
-    
-	},
-    
-	{
-		"name" : "Escorts Balanced Fund-Growth Option-Direct Plan",
-		"amfisymbol" : "120819"
-    
-	},
-    
-	{
-		"name" : "Escorts Balanced Fund-Growth Option",
-		"amfisymbol" : "101070"
-    
-	},
-    
-	{
-		"name" : "Escorts Power &amp; Energy Fund - Growth Option-Direct Plan",
-		"amfisymbol" : "120843"
-    
-	},
-    
-	{
-		"name" : "Escorts Power &amp; Energy Fund - Growth Option",
-		"amfisymbol" : "109830"
-    
-	},
-    
-	{
-		"name" : "Escorts Opportunities Fund-Growth Option-Direct Plan",
-		"amfisymbol" : "120841"
-    
-	},
-    
-	{
-		"name" : "Escorts Opportunities Fund-Growth",
-		"amfisymbol" : "101065"
-    
-	},
-    
-	{
-		"name" : "Escorts Leading Sectors Fund - Growth Option-Direct Plan",
-		"amfisymbol" : "120834"
-    
-	},
-    
-	{
-		"name" : "Escorts Leading Sectors Fund - Growth Option",
-		"amfisymbol" : "109275"
-    
-	},
-    
-	{
-		"name" : "Escorts Infrastructure Fund - Growth Option-Direct Plan",
-		"amfisymbol" : "120833"
     
 	},
     
@@ -73,14 +13,32 @@
 	},
     
 	{
-		"name" : "Escorts High Yield Equity Plan - Growth Option-Direct Plan",
-		"amfisymbol" : "120826"
+		"name" : "Escorts Infrastructure Fund - Growth Option-Direct Plan",
+		"amfisymbol" : "120833"
     
 	},
     
 	{
-		"name" : "Escorts High Yield Equity Plan - Growth Option",
-		"amfisymbol" : "104513"
+		"name" : "Escorts Leading Sectors Fund - Growth Option",
+		"amfisymbol" : "109275"
+    
+	},
+    
+	{
+		"name" : "Escorts Leading Sectors Fund - Growth Option-Direct Plan",
+		"amfisymbol" : "120834"
+    
+	},
+    
+	{
+		"name" : "Escorts Opportunities Fund-Growth",
+		"amfisymbol" : "101065"
+    
+	},
+    
+	{
+		"name" : "Escorts Growth Plan-GROWTH OPTION",
+		"amfisymbol" : "100631"
     
 	},
     
@@ -91,8 +49,50 @@
 	},
     
 	{
-		"name" : "Escorts Growth Plan-GROWTH OPTION",
-		"amfisymbol" : "100631"
+		"name" : "Escorts High Yield Equity Plan - Growth Option",
+		"amfisymbol" : "104513"
+    
+	},
+    
+	{
+		"name" : "Escorts High Yield Equity Plan - Growth Option-Direct Plan",
+		"amfisymbol" : "120826"
+    
+	},
+    
+	{
+		"name" : "Escorts Opportunities Fund-Growth Option-Direct Plan",
+		"amfisymbol" : "120841"
+    
+	},
+    
+	{
+		"name" : "Escorts Power &amp; Energy Fund - Growth Option",
+		"amfisymbol" : "109830"
+    
+	},
+    
+	{
+		"name" : "Escorts Power &amp; Energy Fund - Growth Option-Direct Plan",
+		"amfisymbol" : "120843"
+    
+	},
+    
+	{
+		"name" : "Escorts Balanced Fund-Growth Option",
+		"amfisymbol" : "101070"
+    
+	},
+    
+	{
+		"name" : "Escorts Balanced Fund-Growth Option-Direct Plan",
+		"amfisymbol" : "120819"
+    
+	},
+    
+	{
+		"name" : "Escorts Tax Plan-Growth Option-Direct Plan",
+		"amfisymbol" : "120847"
     
 	}
     

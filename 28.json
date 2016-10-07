@@ -1,218 +1,8 @@
 [
 
 	{
-		"name" : "UTI - Long Term Equity Fund (Tax Saving) - Regular Plan - Growth Option",
-		"amfisymbol" : "100821"
-    
-	},
-    
-	{
-		"name" : "UTI - Long Term Equity Fund (Tax Saving) - Direct Plan - Growth Option",
-		"amfisymbol" : "120715"
-    
-	},
-    
-	{
-		"name" : "UTI - Balanced Fund-Growth - Direct",
-		"amfisymbol" : "120674"
-    
-	},
-    
-	{
-		"name" : "UTI - Balanced Fund-Growth",
-		"amfisymbol" : "100684"
-    
-	},
-    
-	{
-		"name" : "UTI-Transportation and Logistics Fund-Growth Option- Direct",
-		"amfisymbol" : "120731"
-    
-	},
-    
-	{
-		"name" : "UTI-Transportation and Logistics Fund-Growth Option",
-		"amfisymbol" : "102398"
-    
-	},
-    
-	{
-		"name" : "UTI-Dividend Yield Fund.-Growth-Direct",
-		"amfisymbol" : "120749"
-    
-	},
-    
-	{
-		"name" : "UTI-Dividend Yield Fund.-Growth",
-		"amfisymbol" : "103026"
-    
-	},
-    
-	{
-		"name" : "UTI Spread Fund - Growth Option- Direct",
-		"amfisymbol" : "120795"
-    
-	},
-    
-	{
-		"name" : "UTI Spread Fund - Growth Option",
-		"amfisymbol" : "104075"
-    
-	},
-    
-	{
-		"name" : "UTI Opportunities Fund-Growth Option-Direct",
-		"amfisymbol" : "120751"
-    
-	},
-    
-	{
-		"name" : "UTI Opportunities Fund-Growth Option",
-		"amfisymbol" : "103098"
-    
-	},
-    
-	{
-		"name" : "UTI Multi Cap Fund - Growth Option - Direct",
-		"amfisymbol" : "131164"
-    
-	},
-    
-	{
-		"name" : "UTI Multi Cap Fund - Growth Option",
-		"amfisymbol" : "131163"
-    
-	},
-    
-	{
-		"name" : "UTI Mid Cap Fund-Growth Option- Direct",
-		"amfisymbol" : "120726"
-    
-	},
-    
-	{
-		"name" : "UTI Mid Cap Fund-Growth Option",
-		"amfisymbol" : "102394"
-    
-	},
-    
-	{
-		"name" : "UTI Infrastructure Fund-Growth Option- Direct",
-		"amfisymbol" : "120728"
-    
-	},
-    
-	{
-		"name" : "UTI Infrastructure Fund-Growth Option",
-		"amfisymbol" : "102395"
-    
-	},
-    
-	{
-		"name" : "UTI Pharma &amp; Healthcare Fund-Growth Option- Direct",
-		"amfisymbol" : "120782"
-    
-	},
-    
-	{
-		"name" : "UTI Pharma &amp; Healthcare Fund-Growth Option",
-		"amfisymbol" : "100807"
-    
-	},
-    
-	{
-		"name" : "UTI CCP Advantage Fund - Growth- Direct",
-		"amfisymbol" : "120724"
-    
-	},
-    
-	{
-		"name" : "UTI CCP Advantage Fund - Growth",
-		"amfisymbol" : "102267"
-    
-	},
-    
-	{
-		"name" : "UTI Bluechip Flexicap Fund - Regular Plan - Growth option",
-		"amfisymbol" : "103457"
-    
-	},
-    
-	{
-		"name" : "UTI Bluechip Flexicap Fund - Direct Plan - Growth Option",
-		"amfisymbol" : "120757"
-    
-	},
-    
-	{
-		"name" : "UTI Banking Sector Fund-Growth Option- Direct",
-		"amfisymbol" : "120733"
-    
-	},
-    
-	{
-		"name" : "UTI Banking Sector Fund-Growth Option",
-		"amfisymbol" : "102401"
-    
-	},
-    
-	{
-		"name" : "UTI - Wealth Builder Fund - Growth Option-Direct",
-		"amfisymbol" : "120760"
-    
-	},
-    
-	{
-		"name" : "UTI - Wealth Builder Fund - Growth Option",
-		"amfisymbol" : "111599"
-    
-	},
-    
-	{
-		"name" : "UTI - TOP 100 Fund- Growth Option - Direct",
-		"amfisymbol" : "120665"
-    
-	},
-    
-	{
-		"name" : "UTI - TOP 100 Fund- Growth Option",
-		"amfisymbol" : "100664"
-    
-	},
-    
-	{
-		"name" : "UTI - NIFTY Index Fund-Growth Option- Direct",
-		"amfisymbol" : "120716"
-    
-	},
-    
-	{
-		"name" : "UTI - NIFTY Index Fund-Growth Option",
-		"amfisymbol" : "100822"
-    
-	},
-    
-	{
-		"name" : "UTI - MNC Fund (UGS 10000)-Growth Option - Direct",
-		"amfisymbol" : "120682"
-    
-	},
-    
-	{
-		"name" : "UTI - MNC Fund (UGS 10000)-Growth Option",
-		"amfisymbol" : "100740"
-    
-	},
-    
-	{
-		"name" : "UTI - Master Share-Growth Option - Direct",
-		"amfisymbol" : "120656"
-    
-	},
-    
-	{
-		"name" : "UTI - Master Share-Growth Option",
-		"amfisymbol" : "100651"
+		"name" : "UTI - Equity Fund-Growth Option",
+		"amfisymbol" : "100669"
     
 	},
     
@@ -223,8 +13,218 @@
 	},
     
 	{
-		"name" : "UTI - Equity Fund-Growth Option",
-		"amfisymbol" : "100669"
+		"name" : "UTI - Master Share-Growth Option",
+		"amfisymbol" : "100651"
+    
+	},
+    
+	{
+		"name" : "UTI - Master Share-Growth Option - Direct",
+		"amfisymbol" : "120656"
+    
+	},
+    
+	{
+		"name" : "UTI - MNC Fund (UGS 10000)-Growth Option",
+		"amfisymbol" : "100740"
+    
+	},
+    
+	{
+		"name" : "UTI - MNC Fund (UGS 10000)-Growth Option - Direct",
+		"amfisymbol" : "120682"
+    
+	},
+    
+	{
+		"name" : "UTI - NIFTY Index Fund-Growth Option",
+		"amfisymbol" : "100822"
+    
+	},
+    
+	{
+		"name" : "UTI - NIFTY Index Fund-Growth Option- Direct",
+		"amfisymbol" : "120716"
+    
+	},
+    
+	{
+		"name" : "UTI - TOP 100 Fund- Growth Option",
+		"amfisymbol" : "100664"
+    
+	},
+    
+	{
+		"name" : "UTI - TOP 100 Fund- Growth Option - Direct",
+		"amfisymbol" : "120665"
+    
+	},
+    
+	{
+		"name" : "UTI - Wealth Builder Fund - Growth Option",
+		"amfisymbol" : "111599"
+    
+	},
+    
+	{
+		"name" : "UTI - Wealth Builder Fund - Growth Option-Direct",
+		"amfisymbol" : "120760"
+    
+	},
+    
+	{
+		"name" : "UTI Banking Sector Fund-Growth Option",
+		"amfisymbol" : "102401"
+    
+	},
+    
+	{
+		"name" : "UTI Banking Sector Fund-Growth Option- Direct",
+		"amfisymbol" : "120733"
+    
+	},
+    
+	{
+		"name" : "UTI Bluechip Flexicap Fund - Direct Plan - Growth Option",
+		"amfisymbol" : "120757"
+    
+	},
+    
+	{
+		"name" : "UTI Bluechip Flexicap Fund - Regular Plan - Growth option",
+		"amfisymbol" : "103457"
+    
+	},
+    
+	{
+		"name" : "UTI CCP Advantage Fund - Growth",
+		"amfisymbol" : "102267"
+    
+	},
+    
+	{
+		"name" : "UTI CCP Advantage Fund - Growth- Direct",
+		"amfisymbol" : "120724"
+    
+	},
+    
+	{
+		"name" : "UTI Pharma &amp; Healthcare Fund-Growth Option",
+		"amfisymbol" : "100807"
+    
+	},
+    
+	{
+		"name" : "UTI Pharma &amp; Healthcare Fund-Growth Option- Direct",
+		"amfisymbol" : "120782"
+    
+	},
+    
+	{
+		"name" : "UTI Infrastructure Fund-Growth Option",
+		"amfisymbol" : "102395"
+    
+	},
+    
+	{
+		"name" : "UTI Infrastructure Fund-Growth Option- Direct",
+		"amfisymbol" : "120728"
+    
+	},
+    
+	{
+		"name" : "UTI Mid Cap Fund-Growth Option",
+		"amfisymbol" : "102394"
+    
+	},
+    
+	{
+		"name" : "UTI Mid Cap Fund-Growth Option- Direct",
+		"amfisymbol" : "120726"
+    
+	},
+    
+	{
+		"name" : "UTI Multi Cap Fund - Growth Option",
+		"amfisymbol" : "131163"
+    
+	},
+    
+	{
+		"name" : "UTI Multi Cap Fund - Growth Option - Direct",
+		"amfisymbol" : "131164"
+    
+	},
+    
+	{
+		"name" : "UTI Opportunities Fund-Growth Option",
+		"amfisymbol" : "103098"
+    
+	},
+    
+	{
+		"name" : "UTI Opportunities Fund-Growth Option-Direct",
+		"amfisymbol" : "120751"
+    
+	},
+    
+	{
+		"name" : "UTI Spread Fund - Growth Option",
+		"amfisymbol" : "104075"
+    
+	},
+    
+	{
+		"name" : "UTI Spread Fund - Growth Option- Direct",
+		"amfisymbol" : "120795"
+    
+	},
+    
+	{
+		"name" : "UTI-Dividend Yield Fund.-Growth",
+		"amfisymbol" : "103026"
+    
+	},
+    
+	{
+		"name" : "UTI-Dividend Yield Fund.-Growth-Direct",
+		"amfisymbol" : "120749"
+    
+	},
+    
+	{
+		"name" : "UTI-Transportation and Logistics Fund-Growth Option",
+		"amfisymbol" : "102398"
+    
+	},
+    
+	{
+		"name" : "UTI-Transportation and Logistics Fund-Growth Option- Direct",
+		"amfisymbol" : "120731"
+    
+	},
+    
+	{
+		"name" : "UTI - Balanced Fund-Growth",
+		"amfisymbol" : "100684"
+    
+	},
+    
+	{
+		"name" : "UTI - Balanced Fund-Growth - Direct",
+		"amfisymbol" : "120674"
+    
+	},
+    
+	{
+		"name" : "UTI - Long Term Equity Fund (Tax Saving) - Direct Plan - Growth Option",
+		"amfisymbol" : "120715"
+    
+	},
+    
+	{
+		"name" : "UTI - Long Term Equity Fund (Tax Saving) - Regular Plan - Growth Option",
+		"amfisymbol" : "100821"
     
 	}
     
