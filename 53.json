@@ -1,18 +1,6 @@
 [
 
 	{
-		"name" : "Axis Long Term Equity Fund - Direct Plan - Growth Option",
-		"amfisymbol" : "120503"
-    
-	},
-    
-	{
-		"name" : "Axis Long Term Equity Fund - Growth",
-		"amfisymbol" : "112323"
-    
-	},
-    
-	{
 		"name" : "Axis Equity Fund - Direct Plan - Growth",
 		"amfisymbol" : "120465"
     
@@ -81,6 +69,18 @@
 	{
 		"name" : "Axis Triple Advantage Fund - Growth Option",
 		"amfisymbol" : "113064"
+    
+	},
+    
+	{
+		"name" : "Axis Long Term Equity Fund - Direct Plan - Growth Option",
+		"amfisymbol" : "120503"
+    
+	},
+    
+	{
+		"name" : "Axis Long Term Equity Fund - Growth",
+		"amfisymbol" : "112323"
     
 	}
     

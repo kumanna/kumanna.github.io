@@ -1,12 +1,6 @@
 [
 
 	{
-		"name" : "DSP BlackRock Natural Resources And New Energy Fund - Regular - Growth",
-		"amfisymbol" : "108202"
-    
-	},
-    
-	{
 		"name" : "DSP BlackRock Opportunities Fund - Direct Plan - Growth",
 		"amfisymbol" : "119218"
     
@@ -39,12 +33,6 @@
 	{
 		"name" : "DSP BlackRock Equity Fund - Regular Plan - Growth",
 		"amfisymbol" : "105875"
-    
-	},
-    
-	{
-		"name" : "DSP BlackRock Equity Fund - Institutional Plan - Growth",
-		"amfisymbol" : "105876"
     
 	},
     
@@ -99,6 +87,12 @@
 	{
 		"name" : "DSP BlackRock Natural Resources and New Energy Fund - Direct Plan - Growth",
 		"amfisymbol" : "119028"
+    
+	},
+    
+	{
+		"name" : "DSP BlackRock Natural Resources And New Energy Fund - Regular - Growth",
+		"amfisymbol" : "108202"
     
 	},
     

@@ -1,6 +1,12 @@
 [
 
 	{
+		"name" : "Franklin India Prima Fund-Growth",
+		"amfisymbol" : "100473"
+    
+	},
+    
+	{
 		"name" : "Franklin Asian Equity Fund - Direct - Growth",
 		"amfisymbol" : "118559"
     
@@ -49,12 +55,6 @@
 	},
     
 	{
-		"name" : "Franklin India INDEX FUND NIFTY PLAN - Direct - Growth",
-		"amfisymbol" : "118581"
-    
-	},
-    
-	{
 		"name" : "Franklin India High Growth Companies Fund - Direct - Growth",
 		"amfisymbol" : "118564"
     
@@ -63,6 +63,12 @@
 	{
 		"name" : "Franklin India High Growth Companies Fund - Growth Plan",
 		"amfisymbol" : "105817"
+    
+	},
+    
+	{
+		"name" : "Franklin India INDEX FUND NIFTY PLAN - Direct - Growth",
+		"amfisymbol" : "118581"
     
 	},
     
@@ -87,12 +93,6 @@
 	{
 		"name" : "Franklin India PRIMA FUND - Direct - Growth",
 		"amfisymbol" : "118533"
-    
-	},
-    
-	{
-		"name" : "Franklin India Prima Fund-Growth",
-		"amfisymbol" : "100473"
     
 	},
     

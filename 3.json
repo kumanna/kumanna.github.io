@@ -1,8 +1,32 @@
 [
 
 	{
-		"name" : "Birla Sun Life Manufacturing Equity Fund - Direct Plan - Growth",
-		"amfisymbol" : "133516"
+		"name" : "Birla Sun Life Banking and Financial Services Fund - Regular Plan - Growth",
+		"amfisymbol" : "125595"
+    
+	},
+    
+	{
+		"name" : "Birla Sun Life India Gennext Fund - Growth - Direct Plan",
+		"amfisymbol" : "119591"
+    
+	},
+    
+	{
+		"name" : "Birla Sun Life Infrastructure Fund - Growth - Direct Plan",
+		"amfisymbol" : "119514"
+    
+	},
+    
+	{
+		"name" : "Birla Sun Life Banking and Financial Services Fund - Direct Plan - Growth",
+		"amfisymbol" : "125597"
+    
+	},
+    
+	{
+		"name" : "Birla Sun Life Frontline Equity Fund-Growth",
+		"amfisymbol" : "103174"
     
 	},
     
@@ -15,18 +39,6 @@
 	{
 		"name" : "Birla Sun Life Advantage Fund - Regular Growth",
 		"amfisymbol" : "100033"
-    
-	},
-    
-	{
-		"name" : "Birla Sun Life Banking and Financial Services Fund - Direct Plan - Growth",
-		"amfisymbol" : "125597"
-    
-	},
-    
-	{
-		"name" : "Birla Sun Life Banking and Financial Services Fund - Regular Plan - Growth",
-		"amfisymbol" : "125595"
     
 	},
     
@@ -73,12 +85,6 @@
 	},
     
 	{
-		"name" : "Birla Sun Life Frontline Equity Fund-Growth",
-		"amfisymbol" : "103174"
-    
-	},
-    
-	{
 		"name" : "Birla Sun Life Index Fund - Growth - Direct Plan",
 		"amfisymbol" : "119648"
     
@@ -87,12 +93,6 @@
 	{
 		"name" : "Birla Sun Life Index Fund - Growth - Regular Plan",
 		"amfisymbol" : "101314"
-    
-	},
-    
-	{
-		"name" : "Birla Sun Life India Gennext Fund - Growth - Direct Plan",
-		"amfisymbol" : "119591"
     
 	},
     
@@ -127,12 +127,6 @@
 	},
     
 	{
-		"name" : "Birla Sun Life Infrastructure Fund - Growth - Direct Plan",
-		"amfisymbol" : "119514"
-    
-	},
-    
-	{
 		"name" : "Birla Sun Life Infrastructure Fund-Growth",
 		"amfisymbol" : "103476"
     
@@ -147,6 +141,12 @@
 	{
 		"name" : "Birla Sun Life International Equity Fund - Plan A - Growth - Regular Plan",
 		"amfisymbol" : "106873"
+    
+	},
+    
+	{
+		"name" : "Birla Sun Life Manufacturing Equity Fund - Direct Plan - Growth",
+		"amfisymbol" : "133516"
     
 	},
     

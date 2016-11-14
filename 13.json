@@ -1,8 +1,26 @@
 [
 
 	{
-		"name" : "Escorts Tax Plan-Growth",
-		"amfisymbol" : "100175"
+		"name" : "Escorts Growth Plan-GROWTH OPTION",
+		"amfisymbol" : "100631"
+    
+	},
+    
+	{
+		"name" : "Escorts Growth Plan-GROWTH OPTION-Direct Plan",
+		"amfisymbol" : "120823"
+    
+	},
+    
+	{
+		"name" : "Escorts High Yield Equity Plan - Growth Option",
+		"amfisymbol" : "104513"
+    
+	},
+    
+	{
+		"name" : "Escorts High Yield Equity Plan - Growth Option-Direct Plan",
+		"amfisymbol" : "120826"
     
 	},
     
@@ -37,30 +55,6 @@
 	},
     
 	{
-		"name" : "Escorts Growth Plan-GROWTH OPTION",
-		"amfisymbol" : "100631"
-    
-	},
-    
-	{
-		"name" : "Escorts Growth Plan-GROWTH OPTION-Direct Plan",
-		"amfisymbol" : "120823"
-    
-	},
-    
-	{
-		"name" : "Escorts High Yield Equity Plan - Growth Option",
-		"amfisymbol" : "104513"
-    
-	},
-    
-	{
-		"name" : "Escorts High Yield Equity Plan - Growth Option-Direct Plan",
-		"amfisymbol" : "120826"
-    
-	},
-    
-	{
 		"name" : "Escorts Opportunities Fund-Growth Option-Direct Plan",
 		"amfisymbol" : "120841"
     
@@ -87,6 +81,12 @@
 	{
 		"name" : "Escorts Balanced Fund-Growth Option-Direct Plan",
 		"amfisymbol" : "120819"
+    
+	},
+    
+	{
+		"name" : "Escorts Tax Plan-Growth",
+		"amfisymbol" : "100175"
     
 	},
     

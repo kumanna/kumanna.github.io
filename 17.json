@@ -7,18 +7,6 @@
 	},
     
 	{
-		"name" : "Kotak Mid-Cap - Growth",
-		"amfisymbol" : "102875"
-    
-	},
-    
-	{
-		"name" : "Kotak Balance - Growth",
-		"amfisymbol" : "133036"
-    
-	},
-    
-	{
 		"name" : "Kotak 50 - Growth - Direct",
 		"amfisymbol" : "120152"
     
@@ -97,6 +85,12 @@
 	},
     
 	{
+		"name" : "Kotak Mid-Cap - Growth",
+		"amfisymbol" : "102875"
+    
+	},
+    
+	{
 		"name" : "Kotak Mid-Cap - Growth - Direct",
 		"amfisymbol" : "120164"
     
@@ -129,6 +123,12 @@
 	{
 		"name" : "Kotak Balance - Direct Growth",
 		"amfisymbol" : "133035"
+    
+	},
+    
+	{
+		"name" : "Kotak Balance - Growth",
+		"amfisymbol" : "133036"
     
 	},
     
